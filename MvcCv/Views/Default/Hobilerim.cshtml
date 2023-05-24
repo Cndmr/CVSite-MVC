@@ -1,0 +1,11 @@
+﻿@using MvcCv.Models.Entity
+@model List<TblHobilerim>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hobilerim</h2>
+    @foreach (var x in Model)
+    {
+        <p style="color: black; font-size: 25px; font-family: 'Times New Roman', Times, serif; opacity: 0.8; font-weight: bold;">@x.Aciklama1</p>
+        <p class="mb-0">@x.Aciklama2</p>
+    }
+ </div>
